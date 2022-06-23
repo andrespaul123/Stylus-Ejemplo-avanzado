@@ -1,0 +1,22 @@
+.tabla
+    padding-top 50px
+    width 1200px
+    margin 0px auto 0px auto
+
+table
+  for row in 1 2 3
+    td:nth-child({row})
+      width: 100px *row
+  &,td
+    margin 0 auto
+    border 1px solid black
+    border-collapse collapse
+td
+    text-align center
+    vertical-align middle
+
+border-radius(n)
+    -webkit-border-radius n
+    -moz-border-radius n
+    border-radius n
+

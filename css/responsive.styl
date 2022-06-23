@@ -1,0 +1,29 @@
+body
+    text-align center
+seleccionar(condicion)
+    if condicion >= 512px && condicion < 992px
+        .dos
+            color red
+            display block
+        .uno
+        .tres
+            display none
+    if condicion >= 992px 
+        .tres
+            color red
+            display block
+        .uno
+        .dos
+            display none
+
+
+.uno
+    color red    
+.dos
+.tres
+    display none
+  for i in 1..2
+    $valor = 2**(i+8)px
+    @media (min-width: $valor)
+      
+      seleccionar($valor)

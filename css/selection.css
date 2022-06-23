@@ -1,0 +1,19 @@
+.selection {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.selection a {
+  text-decoration: none;
+}
+.selection a:not(:first-child) {
+  margin-top: 20px;
+}
+.selection a div {
+  width: 700px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 30px;
+}

@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+}
+.uno {
+  color: #f00;
+}
+.dos,
+.tres {
+  display: none;
+}
+@media (min-width: 512px) {
+  .dos {
+    color: #f00;
+    display: block;
+  }
+  .uno,
+  .tres {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .tres {
+    color: #f00;
+    display: block;
+  }
+  .uno,
+  .dos {
+    display: none;
+  }
+}

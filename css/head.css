@@ -1,0 +1,19 @@
+.main {
+  width: 1200px;
+  height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+.logo {
+  padding-top: 20px;
+}
+.logo img {
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+.logo p {
+  text-align: center;
+  font-size: 15px;
+}
